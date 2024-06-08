@@ -1,0 +1,217 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.headicon{
+    background-color: #ED1C24;
+}
+.navbar{
+    width: 100%;
+    position: fixed;
+    align-items:center ;
+    height: 100px;
+    display: flex;
+    background-color: rgba(228, 228, 228, 0.503);
+    box-shadow: rgba(49, 49, 49, 0.2) 0px 7px 29px 0px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.logo{
+    margin-left: 70px;
+    cursor: pointer;
+    height: 22px;
+    margin-right: 20px;
+}
+.navleft{
+    margin-right: 10px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+}
+.navright{
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    height: 45px;
+    margin-left: 100px;
+    margin-right: 70px;
+    /* background-color: antiquewhite; */
+}
+.navright ul{
+    display: flex;
+    align-items: center;
+}
+.bx.bx-search {
+    font-size: 20px;
+}
+.navright .bx.bx-shopping-bag{
+    font-size: 40px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+.navright .bx.bx-shopping-bag:hover{
+    font-size: 40px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+.navleft ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+}
+.navleft ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navleft ul li a:hover{
+    padding-bottom: 3px;
+    border-bottom: 3px solid #ED1C24;
+    color: black;
+
+}
+.navright ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+}
+.navright ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navright ul li a:hover{
+    padding-bottom: 3px;
+    border-bottom: 3px solid #ED1C24;
+    color: black;
+}
+.storebutton{
+    background-color: #ED1C24;
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    border-color: transparent;
+}
+/* main */
+
+.main{
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.video{
+    margin-top: 130px;
+    margin-bottom: 40px;
+}
+.subheader{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    
+}
+.isiheader{
+    margin-bottom: 20px;
+    color: rgb(99, 99, 99);
+}
+
+.mainbox{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 130px;
+}
+.mainbox1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    gap: 30px; 
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+.submainbox{
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 90px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+.submainbox img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+/* .slidernav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+} */
+/* .slidernav a{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+.slidernav a:hover{
+    opacity: 1;
+} */
+.submainbox1{
+    width: 100%;
+    height: auto;
+}
+/* footer */
+.footercontainer{
+    width: auto;
+    height:380px;
+    font-family: Montserrat, sans-serif;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.footer{
+    gap: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.subfooter{
+    margin-top: 100px;
+    display: flex;
+    gap: 1133px;
+    justify-content: space-around;
+    color: #00000080;
+}
+.bx .bxl-visa{
+    height: 100px;
+    width: 100px;
+}
+.footertitle{
+    width: 200px;
+    font-weight: 600;
+    color: #595959;
+    margin-bottom: 30px;
+}
+.subfootertitle{
+    margin-bottom: 5px;
+    color: #474747;
+}
